@@ -9,11 +9,11 @@ public class ProxyReproducer {
 
         boolean isProxyClass = Proxy.isProxyClass(clazz);
         System.out.println("is proxy: " +isProxyClass);
-        System.out.println("Simple clazz.getName(): " + clazz.getName());
-        System.out.println("Simple clazz.getPackageName(): " + clazz.getPackageName());
-        System.out.println("Simple clazz.getPackage(): " + clazz.getPackage());
-        System.out.println("Simple module: " + clazz.getModule());
-        System.out.println("Simple CL: " + clazz.getClassLoader());
+        System.out.println("clazz.getName(): " + clazz.getName());
+        System.out.println("clazz.getPackageName(): " + clazz.getPackageName());
+        System.out.println("clazz.getPackage(): " + clazz.getPackage());
+        System.out.println("clazz.getModule(): " + clazz.getModule());
+        System.out.println("clazz.getClassLoader(): " + clazz.getClassLoader());
     }
 
 }
